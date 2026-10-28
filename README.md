@@ -1,38 +1,18 @@
-# Дарсӣ: README ва Markdown
+# Pattern — business blog page
 
-## README чист?
-README файли асосии ҳар лоиҳа аст.  
-Вай ба дигарон кӯмак мекунад, ки:
-- лоиҳа чист,
-- чӣ гуна  истифода барем.
+![Pattern — business blog page](screenshots/desktop.png)
 
-Дар GitHub, файли README.md дар саҳифаи асосии репозиторӣ нишон дода мешавад.
-## README-ро дар GitHub чӣ тавр нависем?
-1. Ба репозиторияи худ ворид мешавем.  
-2. Add file → Create new file-ро пахш мекунем.  
-3. Файлро ном диҳед: README.md.  
-4. Матни лексияро ба майдони “Enter file contents here” гузоред.  
-5. Баъдан барои сохранит кардан "Commit changes"-ро зер кунед.
+**🇷🇺** Учебная вёрстка страницы бизнес-блога по макету из Figma.
 
----
+**🇬🇧** Business blog page built from a Figma design (learning project).
 
-## Markdown чист?
-Markdown (MD) як забони осони формат кардани матн аст.  
-Он имкон медиҳад матнро зебо ва равшан нишон диҳем.
+**Стек / Stack:** HTML, Tailwind CSS
 
-### Мисолҳои синтаксис
-# Сарлавҳаи 1
-## Сарлавҳаи 2
-### Сарлавҳаи 3
+## Запуск / Run
 
-**Матни ғафс**  
-*Матни курсив*  
-~~Хатошударо хат занед~~  
+```bash
+npm install
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+```
 
-- Барои рӯйхат
-- Пунктҳо
-
-Сылка:
-[Ссылка ба GitHub](https://github.com)
-
-`Код дар як сатр`
+Откройте / open `src/index.html` в браузере.
